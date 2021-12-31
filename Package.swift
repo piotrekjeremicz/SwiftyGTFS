@@ -10,7 +10,6 @@ let package = Package(
             name: "GTFS",
             targets: ["GTFS"]),
     ],
-
     targets: [
         .target(
             name: "GTFS",

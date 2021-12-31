@@ -7,9 +7,9 @@
 
 import Foundation
 
-extension GTFS {
+public extension GTFS {
     @dynamicMemberLookup
-    public struct Extend<Model, Extended> {
+    struct Extend<Model, Extended> {
         public var model: Model
         public var extended: Extended
         
